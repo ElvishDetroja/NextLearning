@@ -32,3 +32,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+
+
+
+
+rendering means conversion into HTML code.
+two types of rendering environment : client side and server side
+means where the HTML file is made.
+
+pre-rendering means code is convert into HTML on server side.
+two types of pre-rendering.
+1. static generation : when we do npm run build, at that time, code is convert into HTML.
+2. servr side rendering : when request come from client at that time HTML is made on server.
