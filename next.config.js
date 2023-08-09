@@ -16,6 +16,14 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60,
   },
+
+  redirects: async () => {
+    return [
+      { source: "/signin", destination: "/", permanent: false },
+      { source: "/signnotexist", destination: "/", permanent: false },
+      { source: "/signup/:id", destination: "/", permanent: false },
+    ];
+  },
 };
 
 module.exports = nextConfig;

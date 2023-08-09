@@ -23,6 +23,12 @@ export default function RootLayout({ children }) {
           <Link href="/signup" className="link">
             signup
           </Link>
+          <Link href="/signup/34" className="link">
+            signup34
+          </Link>
+          <Link href="/signin" className="link">
+            signin
+          </Link>
           <Link href="/products" className="link">
             products
           </Link>
