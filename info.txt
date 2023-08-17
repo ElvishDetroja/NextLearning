@@ -1,0 +1,16 @@
+file system based routing in next js.
+
+
+Feature in Next over React
+Routing, Middleware, Server Component, Image Optimization, Backend Part
+
+
+
+rendering means conversion into HTML code.
+two types of rendering environment : client side and server side
+means where the HTML file is made.
+
+pre-rendering means code is convert into HTML on server side.
+two types of pre-rendering.
+1. static generation : when we do npm run build, at that time, code is convert into HTML.
+2. servr side rendering : when request come from client at that time HTML is made on server.
